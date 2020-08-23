@@ -1,23 +1,24 @@
 <template>
   <div>
     <p>{{ defaultText }}</p>
+    <p>yes</p>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from 'vue';
+import { Component } from 'vue-property-decorator';
 
-export default Vue.extend({
-  name: 'HelloWorld',
-  mounted () {
-    browser.runtime.sendMessage({})
-  },
-  computed: {
-    defaultText () {
-      return browser.i18n.getMessage('extName')
-    }
+@Component
+export default class HelloWorld extends Vue {
+  mounted() {
+    browser.runtime.sendMessage({});
   }
-})
+
+  get defaultText() {
+    return browser.i18n.getMessage('extName');
+  }
+}
 </script>
 
 <style scoped>
