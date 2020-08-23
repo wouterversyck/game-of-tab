@@ -12,8 +12,12 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "typeRoots": [
+      "./node_modules/phaser/types"
+    ],
     "types": [
       "webpack-env",
+      "Phaser",
       "mocha",
       "chai",
       "firefox-webext-browser"
