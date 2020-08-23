@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "phaser": "^3.24.1",
     "vue": "^2.6.11",
+    "game-of-life": "file:/home/wouter/projects/npm-modules/game-of-life/dist/game-of-life-1.0.0.tgz",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^8.4.2",
     "vue-router": "^3.2.0",

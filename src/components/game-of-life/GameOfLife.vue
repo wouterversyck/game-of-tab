@@ -5,7 +5,7 @@
 <script lang="ts">
 import Vue from 'vue';
 import { Component } from 'vue-property-decorator';
-import Game from './Game';
+import Game from 'game-of-life';
 
 @Component
 export default class HelloWorld extends Vue {

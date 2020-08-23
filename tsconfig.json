@@ -13,11 +13,13 @@
     "sourceMap": true,
     "baseUrl": ".",
     "typeRoots": [
-      "./node_modules/phaser/types"
+      "./node_modules/phaser/types",
+      "./node_modules/game-of-life/dist/types"
     ],
     "types": [
       "webpack-env",
       "Phaser",
+      "Game",
       "mocha",
       "chai",
       "firefox-webext-browser"
